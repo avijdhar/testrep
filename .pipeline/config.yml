@@ -1,7 +1,7 @@
 steps:
     mtaBuild:
         buildTarget: CF
-        mtaJarLocation: '/sapmnt/jenkins/workspace/CF Pipeline/mta.jar'
+        mtaJarLocation: '/sapmnt/jenkins/workspace/CF\ Pipeline/mta.jar'
         dockerImage: 'sonatype/nexus3'
     cloudFoundryDeploy:
         deployTool: mtaDeployPlugin
